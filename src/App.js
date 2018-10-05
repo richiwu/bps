@@ -36,9 +36,10 @@ class App extends Component {
 
           <h1> Percentage to BPS </h1>
           <p> Enter Percentage Value </p>
-          <input type="text" name="bps" value={this.state.bps} onChange = {this.handleChangeBps} />  
+          <input type="text" name="bps" value={this.state.bps} onChange = {this.handleChangeBps} /><span>%</span>  
           <h3>{this.state.bps*100} bps </h3>
         </div> 
+        <p class="yolo"> Made for PMs who are feeling foggy, or just preparing for a product committee. </p>
       </div>
     );
   }
